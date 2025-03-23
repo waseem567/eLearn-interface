@@ -1,25 +1,6 @@
-interface HorizontalGlowProps {
-  className?: string;
-  position?: "top" | "center" | "bottom" | "custom";
-  customPosition?: string;
-  height?: string;
-  colors?: {
-    from: string;
-    via: string;
-    to: string;
-  };
-  opacities?: {
-    from: number;
-    via: number;
-    to: number;
-  };
-  blurIntensity?: string;
-}
-
 export default function HorizontalGlow({
   className = "",
-  position = "center",
-  customPosition = "",
+
   height = "200px",
   colors = {
     from: "#524fd5",

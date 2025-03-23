@@ -4,8 +4,8 @@ import DynamicMarquee from "../Gen/Marquee";
 import { COMPANIES } from "@/utils/data";
 
 const Companies = () => {
-  const companies = COMPANIES.map((companyImage) => (
-    <img src={companyImage} alt="company" className="mx-5" />
+  const companies = COMPANIES.map((companyImage, index) => (
+    <img src={companyImage} alt="company" className="mx-5" key={index} />
   ));
   return (
     <div className="flex flex-col gap-8">

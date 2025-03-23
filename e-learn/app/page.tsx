@@ -5,9 +5,6 @@ import PurpleWrapper from "@/components/Gen/PurpleWrapper";
 import SectionStarter from "@/components/Gen/SectionStarter";
 import HeroSection from "@/components/Hero/Hero";
 import Navbar from "@/components/Nav/Navbar";
-import Testimonials from "@/components/Testimonial/Testimonials";
-import Image from "next/image";
-import { useEffect } from "react";
 
 export default function Home() {
   return (
