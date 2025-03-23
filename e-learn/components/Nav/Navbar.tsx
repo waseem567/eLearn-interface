@@ -5,7 +5,6 @@ import Link from "next/link";
 // import { Menu, X } from "lucide-react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-import useDarkMode from "@/hooks/useDarkMode";
 import useThemeStore from "@/store/themeStore";
 
 export default function Navbar() {

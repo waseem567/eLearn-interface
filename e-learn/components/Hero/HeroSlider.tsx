@@ -2,10 +2,8 @@
 
 import React from "react";
 import Slider from "react-slick";
-import Lottie from "lottie-react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
 import SliderCard from "../Gen/SliderCard";
 const animations = [
   "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/04f290c8baa586175eff911ee952c6a4.png?auto=format%2Ccompress&dpr=1",

@@ -1,5 +1,4 @@
 import React from "react";
-import CourseCardList from "../CourseCardList";
 import CourseCard from "../CourseCard";
 
 const Featured = () => {

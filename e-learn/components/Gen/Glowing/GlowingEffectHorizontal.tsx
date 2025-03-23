@@ -32,20 +32,14 @@ export default function HorizontalGlow({
     to: 0,
   },
   blurIntensity = "100px",
-}: HorizontalGlowProps) {
+}: any) {
   // Position mapping
-  const positionClasses = {
-    top: "top-[10%]",
-    center: "top-[50%] -translate-y-1/2",
-    bottom: "bottom-[10%]",
-    custom: customPosition,
-  };
 
   return (
     <div
       className={`
           absolute left-0 right-0
-          ${positionClasses[position]}
+          }
           ${className}
         `}
       style={{

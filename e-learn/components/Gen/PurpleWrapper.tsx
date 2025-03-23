@@ -1,5 +1,5 @@
 import { Props } from "@/utils/types";
-import React, { ReactNode } from "react";
+import React from "react";
 
 const PurpleWrapper: React.FC<Props> = ({ children }) => {
   return (

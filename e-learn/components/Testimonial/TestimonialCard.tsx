@@ -1,5 +1,3 @@
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-
 export default function TestimonialCard() {
   return (
     <a
