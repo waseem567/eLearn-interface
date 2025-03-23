@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  /* bg colors */
+  --visio-root-background: white;
+  --visio-background-light-purple: rgba(212, 198, 255);
+  --visio-background-purple: #d4c6ff;
+  --visio-background-dark-purple: #524fd5;
+  --visio-background-hero-button: none;
+  --visio-course-card-background: #d4c6ff;
+  --visio-hero-slider-card: #f3f0ff;
+  /* typography */
+  --visio-headings-color: #524fd5;
+  --visio-text-color: black;
+  /* radius */
+  --rounded: 2rem;
+}
+
+.dark {
+  /* bg colors */
+  --visio-root-background: #000;
+  --visio-background-light-purple: rgba(26, 26, 26, 0.5);
+  --visio-background-purple: #d4c6ff;
+  --visio-background-dark-purple: #524fd5;
+  --visio-course-card-background: #524fd5;
+  --visio-hero-slider-card: #524fd5;
+  /* typography */
+  --visio-headings-color: white;
+  --visio-text-color: white;
+  --visio-background-hero-button: #524fd5;
+}
+
+@theme {
+  --color-root-background: var(--visio-root-background);
+  --color-visio-light-purple: var(--visio-background-light-purple);
+  --color-visio-dark-purple: var(--visio-background-dark-purple);
+  --radius-visio-rounded: var(--rounded);
+  --color-visio-headings: var(--visio-headings-color);
+  --color-visio-text: var(--visio-text-color);
+  --color-visio-background-hero-button: var(--visio-background-hero-button);
+  --color-visio-purple: var(--visio-background-purple);
+  --color-visio-slider-card: var(--visio-course-card-background);
+}
