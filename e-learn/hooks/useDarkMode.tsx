@@ -5,11 +5,11 @@ const useDarkMode = () => {
   const [mounted, setMounted] = useState(false); // Ensures no hydration mismatch
 
   useEffect(() => {
-    setMounted(true); // Mark as mounted
+    setMounted(true);
 
     if (typeof window === "undefined") return; // Avoid SSR issues
 
-    // Get saved theme OR detect system preference
+    // detect pref...
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)"

@@ -13,7 +13,7 @@ export default function HorizontalGlow({
     to: 0,
   },
   blurIntensity = "100px",
-}: any) {
+}) {
   // Position mapping
 
   return (

@@ -1,7 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-// Define the store state type
 interface ThemeState {
   isDarkMode: boolean;
   toggleDarkMode: () => void;
